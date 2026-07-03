@@ -6,7 +6,7 @@ import time
 # --- Web Interface Layout ---
 st.set_page_config(page_title="Sistecon Ultra-Fast Scanner", page_icon="⚡")
 st.title("⚡ Sistecon High-Speed Search")
-st.write("Using a 0.05s delay. Caution: High speed may lead to IP blocks.")
+st.write("Using a 0.01s delay. Caution: High speed may lead to IP blocks.")
 
 # Sidebar for inputs
 with st.sidebar:
