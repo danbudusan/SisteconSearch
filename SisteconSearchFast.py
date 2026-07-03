@@ -15,7 +15,7 @@ with st.sidebar:
     end_id = st.number_input("Ending ID", value=101840)
     target_word = st.text_input("Word to find", value="MARIA SOLANGE MONTESANO")
     # Setting the delay here
-    speed_delay = 0.05 
+    speed_delay = 0.01 
 
 if st.button("Launch Scan"):
     found_pages = []
